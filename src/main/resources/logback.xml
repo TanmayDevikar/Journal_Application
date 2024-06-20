@@ -1,0 +1,71 @@
+<configuration>
+
+<!--    Appender does the job of where do we want to print the logs. e.g: on console or in a file.-->
+    <appender name="myConsoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+
+        <encoder>
+            <pattern>
+                %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n
+                <!--The above is the format in which the logs will get print.-->
+                <!-- %d{HH:mm:ss.SSS} means time
+                     [%thread] means thread identifier
+                     %-5level means level. '-' means left indent. 5 means 5 spaces is covered for the name of the level.
+                     %logger{36} means name of the log with up to 36 characters
+                     %msg means message i.e., logs description
+                     %n means new line-->
+            </pattern>
+        </encoder>
+
+    </appender>
+
+<!--    <appender name="myFileAppender" class="ch.qos.logback.core.FileAppender">-->
+<!--        <encoder>-->
+<!--            <pattern>-->
+<!--                %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n-->
+<!--            </pattern>-->
+<!--        </encoder>-->
+
+<!--        <file>-->
+<!--            &lt;!&ndash;journalApp/src/resources/journalApp.log    //this will create the file in given path&ndash;&gt;-->
+<!--            journalApp.log &lt;!&ndash; By default, file will get created in the journalApp folder&ndash;&gt;-->
+<!--            &lt;!&ndash;The file name 'journalApp.log' will get created where the logs will get printed.&ndash;&gt;-->
+<!--        </file>-->
+<!--    </appender>-->
+
+             <!--THE ABOVE FILE APPENDER IS NOT PROVIDING ROTATION. I.E., IT IS PRINTING ALL THE FILES IN ONE FILE ONLY.
+                  WHAT IF WE WANT TO PRINT LOGS IN DIFFERENT FILES. FOR E.G., IN NEW FILE DAILY
+                  FOR THAT, WE WILL USE ROLLING FILE APPENDER-->
+
+        <appender name="myFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+            <file>
+                journalApp.log
+            </file>
+
+            <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+
+                <fileNamePattern>journalApp-%d{yy-MM-dd_HH}.%i.log</fileNamePattern>
+                <!--So basically, in the new file's name, the date will get added. Here, roll over will happen every day. i.e., every day a new log file will get created.
+                    If we do journalApp-%d{yy-MM-dd_HH}.%i.log, roll over will happen every hour.
+                    If we do journalApp-%d{yy-MM-dd_HH-mm}.%i.log, roll over will happen every minute.
+                    'i' is for index-->
+
+                <maxFileSize>10MB</maxFileSize>  <!--When the current log file size exceeded the limit of 10MB, new file will get created-->
+                <maxHistory>10</maxHistory>    <!--10 new files get created, and when the 11th file's number comes, the oldest one will get deleted so that only 10 files count will remain.-->
+            </rollingPolicy>
+
+            <encoder>
+                <pattern>
+                    %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg %n
+                </pattern>
+            </encoder>
+
+        </appender>
+
+    <root level="INFO">  <!---->
+        <appender-ref ref="myConsoleAppender"/>
+        <appender-ref ref="myFileAppender"/>
+    </root>
+
+
+</configuration>

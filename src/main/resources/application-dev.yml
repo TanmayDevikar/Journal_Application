@@ -1,0 +1,28 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://tanmaydevikar99:AKCzxqY1rdNIq52S@cluster0.xhvsyma.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: journaldb
+      auto-index-creation: true
+
+
+  mail:
+    host: smtp.gmail.com  #The mail provider provides the host. For gmail it is smtp.gmail.com, for yahoo it is smtp.mail.yahoo.com, for outlook it is smtp.office365.com.
+    port: 587  #For unencrypted things, port is 25. But as we are using encryption (starttls.enable: true), the port is 587
+    username: tanmaydevikar99@gmail.com
+    password: vbvz lude ysru dhdr
+    properties:
+      mail:
+        smtp:
+          auth: true  #Means that out application needs a username and a password for the authorization
+          starttls:
+            enable: true
+
+server:
+  port: 8080
+  servlet:
+    context-path: /journal
+
+weather:
+  api:
+    key: a689032e0e3b4aef8da82548241506
