@@ -1,0 +1,12 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÚùÖõúÿÿÿÿ8ÄúÀ˜‚2J$4110a144-f3ee-423e-9f7f-87ecf4b8292d
+g
+java:S1640+"Convert this Map to an EnumMap.(½Òğ–úÿÿÿÿ8ÄÒÜ˜‚2J$5fdfee50-f7ec-4742-a266-3ac2e2af3e0f
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ÅúÀ˜‚2J$5f1c3db7-eb35-44b5-b3a2-d5d768915aa6
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ÅúÀ˜‚2J$696b9b29-1355-417e-a0ef-aede06f08283
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ÅúÀ˜‚2J$340eca0c-6ca1-44c9-81d1-1f9f6163545e
+š
+java:S3776%"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¢´Ï«øÿÿÿÿ8Ê¼Â˜‚2J$69456d95-69e2-4534-8e96-edee24f39113

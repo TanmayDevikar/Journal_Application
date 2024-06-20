@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: net.engineeringdigest.journalApp.JournalAppApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.241 s - in net.engineeringdigest.journalApp.JournalAppApplicationTests
