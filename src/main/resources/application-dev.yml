@@ -5,6 +5,10 @@ spring:
       database: journaldb
       auto-index-creation: true
 
+  redis:
+    host: localhost
+    port: 6379
+
 
   mail:
     host: smtp.gmail.com  #The mail provider provides the host. For gmail it is smtp.gmail.com, for yahoo it is smtp.mail.yahoo.com, for outlook it is smtp.office365.com.
@@ -25,4 +29,4 @@ server:
 
 weather:
   api:
-    key: xxxxxxxx
+    key: xxxx

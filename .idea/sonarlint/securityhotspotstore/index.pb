@@ -52,3 +52,11 @@ Usrc/main/java/net/engineeringdigest/journalApp/controller/JournalEntryControlle
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+v
+Fsrc/test/java/net/engineeringdigest/journalApp/service/RedisTests.java,9/0/90d2c288aa8d6dbc19384ba4bdb2e6fd9442843d
+v
+Fsrc/main/java/net/engineeringdigest/journalApp/config/RedisConfig.java,9/8/98f11d8fb337e372f32adcbb914a2f74845f611e
+y
+Isrc/main/java/net/engineeringdigest/journalApp/config/SpringSecurity.java,0/4/040c9bae1833b2012edb51057926a3f77524a6b6
+y
+Isrc/main/java/net/engineeringdigest/journalApp/services/RedisService.java,2/d/2d235cc9e1e5fe0d236d28f07debfa892b7ee7ae

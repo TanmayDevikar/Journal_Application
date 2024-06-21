@@ -1,0 +1,10 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(çĞ‘8«È¬Ëƒ2
+u
+java:S1104"SMake current a static final constant or non-public and provide accessors if needed.(íˆ»úÿÿÿÿ8«È¬Ëƒ2
+X	java:S125"<This block of commented-out lines of code should be removed.(ïß³8®È¬Ëƒ2
+X	java:S125"<This block of commented-out lines of code should be removed.(“ÇÃ‡8®È¬Ëƒ2
+]	java:S125"<This block of commented-out lines of code should be removed.(õ¼Ïÿÿÿÿÿ8¯È¬Ëƒ2
+]	java:S125/"<This block of commented-out lines of code should be removed.(ØŸ™ùÿÿÿÿ8¯È¬Ëƒ2
+]	java:S1257"<This block of commented-out lines of code should be removed.(ŠÚ¹èüÿÿÿÿ8¯È¬Ëƒ2
+X	java:S125E"<This block of commented-out lines of code should be removed.(“›ş8¯È¬Ëƒ2
