@@ -1,16 +1,16 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÌÈ™Áýÿÿÿÿ8ËÅ¦Éƒ2J$c5990cc7-96bb-4899-9937-44592ef67540
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÌÈ™Áýÿÿÿÿ8ËÅ¦Éƒ2J$87b234f2-db4a-4f8d-9c21-4a9884e7d62b
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ÍÅ¦Éƒ2J$1a840133-6dda-40ff-ab6d-fbf6d6908218
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ÍÅ¦Éƒ2J$e691225e-8dc6-4db3-aab6-983576815925
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ÍÅ¦Éƒ2J$809ee9e1-3fc9-4f04-8371-97192d3d082f
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ÍÅ¦Éƒ2J$970a092f-5eb6-4080-98dc-29a6baf47cad
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ÍÅ¦Éƒ2J$9ff5635e-e22e-4cdf-bcf2-06893328d22d
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ÍÅ¦Éƒ2J$7c21ed50-1c24-42f0-9c91-3a9059e44ed9
 ˆ
-java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(²¶é„þÿÿÿÿ8ÏÅ¦Éƒ2J$6ae10263-60cd-4f22-b339-3625d786684f
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(²¶é„þÿÿÿÿ8ÏÅ¦Éƒ2J$73626ad7-36a4-41b1-8289-01ad7224c515
 n
-java:S1452"&Remove usage of generic wildcard type.(²¶é„þÿÿÿÿ8ÏÅ¦Éƒ2J$0ad8e01c-8699-4a3e-afb4-6c4487725838
+java:S1452"&Remove usage of generic wildcard type.(²¶é„þÿÿÿÿ8ÏÅ¦Éƒ2J$ad0909e9-d0c8-40ef-91fd-b8b337ca87e4
 i
-java:S1452*"&Remove usage of generic wildcard type.(¥´±Š8ÓÅ¦Éƒ2J$71e7f7eb-88a0-4a36-aae5-37e68db1a56c
+java:S1452*"&Remove usage of generic wildcard type.(¥´±Š8ÓÅ¦Éƒ2J$e9f090f9-60ae-4f99-a91c-fd48405340b0
 i
-java:S14525"&Remove usage of generic wildcard type.( Á¯„8ÔÅ¦Éƒ2J$a8b61b8f-9ff4-4e86-871c-8d7c3dd22cc7
+java:S14525"&Remove usage of generic wildcard type.( Á¯„8ÔÅ¦Éƒ2J$3d83d0db-a2e0-4b2b-9a18-08786f4959cf

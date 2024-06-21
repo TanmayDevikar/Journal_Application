@@ -6,8 +6,11 @@ spring:
       auto-index-creation: true
 
   redis:
-    host: localhost
-    port: 6379
+    host: xxxx   #For redis cloud connection
+    port: 1111   #For redis cloud connection
+    password: xxxx      #For redis cloud connection
+#    host: localhost     #For local connection
+#    port: 6379   #For local connection
 
 
   mail:

@@ -56,7 +56,7 @@ public class WeatherService {
             }
             return body;
         }
-        //The above if-else block says, if response is present in redis, then return the same. If not, then hit the API and get the response and save it in redis first and return it.
+        //The above first if-else block says, if response is present in redis, then return the same. If not, then hit the API and get the response and save it in redis first and return it.
 
 
         /*Here, we are getting feels like temperature by hitting the API.
