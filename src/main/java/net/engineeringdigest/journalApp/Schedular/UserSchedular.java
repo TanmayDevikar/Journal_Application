@@ -1,12 +1,14 @@
 package net.engineeringdigest.journalApp.Schedular;
 
 import net.engineeringdigest.journalApp.entity.JournalEntry;
+import net.engineeringdigest.journalApp.entity.SentimentData;
 import net.engineeringdigest.journalApp.entity.User;
 import net.engineeringdigest.journalApp.enums.Sentiment;
 import net.engineeringdigest.journalApp.repository.UserRepositoryImpl;
 import net.engineeringdigest.journalApp.services.EmailService;
 import net.engineeringdigest.journalApp.services.SentimentAnalysisService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
@@ -28,6 +30,9 @@ public class UserSchedular {
 
     @Autowired
     private EmailService emailService;
+
+    @Autowired
+    private KafkaTemplate<String, SentimentData> kafkaTemplate;
 
 
 
@@ -55,7 +60,13 @@ public class UserSchedular {
                 }
                 //From the above logic, we are counting the number of times each sentiment has appeared for the user. And whichever sentiment is most frequent, we are sending that sentiment in the body of the mail.
                 if(mostFrequentSentiment != null) {
-                    emailService.sendEmail(user.getEmail(), "Sentiment for last 7 days", mostFrequentSentiment.toString());
+                    //emailService.sendEmail(user.getEmail(), "Sentiment for last 7 days", mostFrequentSentiment.toString());
+                    //If this email service fails, then the mail will not send. So, for decoupling, we will introduce Kafka here.
+                    //Instead of sending email directly, we will use Kafka
+
+                    SentimentData sentimentData = SentimentData.builder().email(user.getEmail()).sentiment("Sentiments for last 7 days " + mostFrequentSentiment).build();
+                    kafkaTemplate.send("weekly-sentiments", sentimentData.getEmail(), sentimentData);
+                    //"weekly-sentiments" is topic, 'sentimentData.getEmail()' is a key and 'sentimentData' is the message.
                 }
             }
 

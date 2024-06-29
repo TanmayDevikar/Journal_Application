@@ -1,12 +1,15 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÚùÖõúÿÿÿÿ8ÄúÀ˜‚2J$4110a144-f3ee-423e-9f7f-87ecf4b8292d
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÚùÖõúÿÿÿÿ8İó ††2J$34dcbb02-39c5-4705-b54f-b3713a0a1274
 g
-java:S1640+"Convert this Map to an EnumMap.(½Òğ–úÿÿÿÿ8ÄÒÜ˜‚2J$5fdfee50-f7ec-4742-a266-3ac2e2af3e0f
+java:S16400"Convert this Map to an EnumMap.(½Òğ–úÿÿÿÿ8İó ††2J$db73cee0-6e8d-41d1-a195-e0fee8d8d1e4
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ÅúÀ˜‚2J$5f1c3db7-eb35-44b5-b3a2-d5d768915aa6
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Şó ††2J$a450706a-9279-4d8b-ad79-85dfb371e61f
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ÅúÀ˜‚2J$696b9b29-1355-417e-a0ef-aede06f08283
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Şó ††2J$a01fb08e-d4b2-4f23-b278-e01f42b39a61
 …
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ÅúÀ˜‚2J$340eca0c-6ca1-44c9-81d1-1f9f6163545e
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Şó ††2J$50768528-a91c-41f0-89ff-8f03c12edae4
+…
+java:S6813""BRemove this field injection and use constructor injection instead.(êæÄŞ8Şó ††2J$17086500-77da-47a3-b052-97bb7176579b
 š
-java:S3776%"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¢´Ï«øÿÿÿÿ8Ê¼Â˜‚2J$69456d95-69e2-4534-8e96-edee24f39113
+java:S3776*"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¢´Ï«øÿÿÿÿ8àó ††2J$849cd40c-2afd-4dfa-818a-f03f7d646c54
+~	java:S125?"<This block of commented-out lines of code should be removed.(åÌ¿õ8ãó ††2J$bf5f9c16-ac8e-449a-a1fd-3b293658b9c2

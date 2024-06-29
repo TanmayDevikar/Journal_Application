@@ -1,18 +1,18 @@
 
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÌÈ™Áýÿÿÿÿ
-M
-java:S2589c"7Remove this expression which always evaluates to "true"(‹éÉ€
-X
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ
-X
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ
-<
-java:S1452"&Remove usage of generic wildcard type.(Ú¼¹Ï
-[
-java:S4684*"@Replace this persistent entity with a simple POJO or DTO object.(­ìÝóýÿÿÿÿ
-A
-java:S1452*"&Remove usage of generic wildcard type.(­ìÝóýÿÿÿÿ
-V
-java:S4684V"@Replace this persistent entity with a simple POJO or DTO object.(›™’ð
-<
-java:S1452V"&Remove usage of generic wildcard type.(›™’ð
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÌÈ™ÁýÿÿÿÿJ$0a48ab4b-eee7-45f6-a1b5-86230f15cd67
+s
+java:S2589c"7Remove this expression which always evaluates to "true"(‹éÉ€J$768f4403-a537-4c9f-bc93-9d8a65b8bdeb
+~
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞJ$af614e19-67e5-41ec-a5e4-75b81345e8fa
+~
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞJ$f6547cd3-4657-464b-887a-091ed2c8f313
+b
+java:S1452"&Remove usage of generic wildcard type.(Ú¼¹ÏJ$29b7db6a-8556-4a97-a9ca-5393eea8c2c9
+
+java:S4684*"@Replace this persistent entity with a simple POJO or DTO object.(­ìÝóýÿÿÿÿJ$f8bd470b-6446-4b7b-9c3d-60f00825f440
+g
+java:S1452*"&Remove usage of generic wildcard type.(­ìÝóýÿÿÿÿJ$337335d6-bbea-4494-820e-572bd5d4999e
+|
+java:S4684V"@Replace this persistent entity with a simple POJO or DTO object.(›™’ðJ$9b00f752-efa2-4632-9433-8b24554627e9
+b
+java:S1452V"&Remove usage of generic wildcard type.(›™’ðJ$a557877d-d12c-4807-8fb7-d62711331b5a

@@ -1,0 +1,14 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÌÈ™Áıÿÿÿÿ8‰¯Ë†2
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Š¯Ë†2
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Š¯Ë†2
+A
+java:S3751"Make this method non "private".(šî¢øÿÿÿÿÿ8Œ¯Ë†2
+b
+java:S4684%"@Replace this persistent entity with a simple POJO or DTO object.(´º«·ÿÿÿÿÿ8¯Ë†2
+A
+java:S3751%"Make this method non "private".(´º«·ÿÿÿÿÿ8¯Ë†2
+v
+java:S1128"TRemove this unused import 'net.engineeringdigest.journalApp.constants.Placeholders'.(½ÿ´àøÿÿÿÿ8¯Ë†2

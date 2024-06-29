@@ -44,7 +44,7 @@
 
             <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
 
-                <fileNamePattern>journalApp-%d{yy-MM-dd_HH}.%i.log</fileNamePattern>
+                <fileNamePattern>journalApp-%d{yy-MM-dd}.%i.log</fileNamePattern>
                 <!--So basically, in the new file's name, the date will get added. Here, roll over will happen every day. i.e., every day a new log file will get created.
                     If we do journalApp-%d{yy-MM-dd_HH}.%i.log, roll over will happen every hour.
                     If we do journalApp-%d{yy-MM-dd_HH-mm}.%i.log, roll over will happen every minute.

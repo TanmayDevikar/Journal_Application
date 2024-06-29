@@ -60,3 +60,9 @@ y
 Isrc/main/java/net/engineeringdigest/journalApp/config/SpringSecurity.java,0/4/040c9bae1833b2012edb51057926a3f77524a6b6
 y
 Isrc/main/java/net/engineeringdigest/journalApp/services/RedisService.java,2/d/2d235cc9e1e5fe0d236d28f07debfa892b7ee7ae
+x
+Hsrc/main/java/net/engineeringdigest/journalApp/entity/SentimentData.java,e/e/eeeaacb058c1ab88ac3d2f06fb0daabd1afd2093
+…
+Usrc/main/java/net/engineeringdigest/journalApp/services/SentimentConsumerService.java,d/5/d5d114c57abc0c433431f2a46573d870347ce52a
+}
+Msrc/test/java/net/engineeringdigest/journalApp/service/UserSchedulerTest.java,a/a/aa47b88279ae6658d58a66bdd39fa39b8cd22d32

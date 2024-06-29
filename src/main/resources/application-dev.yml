@@ -7,7 +7,7 @@ spring:
 
   redis:
     host: xxxx   #For redis cloud connection
-    port: 1111   #For redis cloud connection
+    port: 16446   #For redis cloud connection
     password: xxxx      #For redis cloud connection
 #    host: localhost     #For local connection
 #    port: 6379   #For local connection
@@ -24,6 +24,33 @@ spring:
           auth: true  #Means that out application needs a username and a password for the authorization
           starttls:
             enable: true
+
+  kafka:
+    bootstrap-servers: xxxx   #If running on localhost then 'localhost:port'. If multiple brokers are running, then comma seperated entitites.
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer  #key and value serializer, same as redis.
+    consumer:
+      group-id: weekly-sentiment-group
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer   #key and value deserializer, same as redis.
+      properties:
+        spring:
+          json:
+            trusted:
+              packages: net.engineeringdigest.journalApp.*  #When the consumer will consume, we need to tell which are the trusted packages. Means, upcoming data from which packages are safe to consume.
+                        #net.engineeringdigest.journalApp.*    for all.
+                        #SSL means the data we are transferring will be in encrypted form.
+    properties:
+      security:
+        protocol: SASL_SSL  #SASL: Simple Authentication and Security Level. SASL is used for authentication.
+      sasl:
+        mechanism: PLAIN   #Plain mechanism for authentication, means username and password will be in simple text.
+        jaas:    #Java Authentication and Authorization service
+          config: org.apache.kafka.common.security.plain.PlainLoginModule required username='xxxx' password='xxxx';
+      session:
+        timeout:
+          ms: 45000    #The consumer continuously sends heart beats, i.e., signals to the broker. If the consumer doesn't send the heart beat for some specific time (in our case, we have set 4500ms, i.e., 45 secs), the broker will consider that particular consumer as dead, and will assign the partition to some other consumer.
 
 server:
   port: 8080
