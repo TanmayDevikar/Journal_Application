@@ -6,7 +6,7 @@ spring:
       auto-index-creation: true
 
   redis:
-    host: xxxx   #For redis cloud connection
+    host: redis-16446.c84.us-east-1-2.ec2.redns.redis-cloud.com   #For redis cloud connection
     port: 16446   #For redis cloud connection
     password: xxxx      #For redis cloud connection
 #    host: localhost     #For local connection
@@ -26,7 +26,7 @@ spring:
             enable: true
 
   kafka:
-    bootstrap-servers: xxxx   #If running on localhost then 'localhost:port'. If multiple brokers are running, then comma seperated entitites.
+    bootstrap-servers: pkc-921jm.us-east-2.aws.confluent.cloud:9092   #If running on localhost then 'localhost:port'. If multiple brokers are running, then comma seperated entitites.
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer  #key and value serializer, same as redis.

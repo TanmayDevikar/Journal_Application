@@ -1,6 +1,0 @@
-
-•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ö»®ÛJ$b7af86fc-69f2-4422-81c2-5711aec1ca17
-~
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞJ$9550df89-0041-4a4c-9ccb-8586083b7750
-€
-java:S1874"DRemove this use of "WebSecurityConfigurerAdapter"; it is deprecated.(Í±ÂÚJ$0985ce32-1738-4cbb-8f1a-aa1f280f2c92

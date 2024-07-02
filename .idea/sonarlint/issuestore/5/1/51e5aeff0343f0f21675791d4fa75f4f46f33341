@@ -1,12 +1,0 @@
-
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÍæşÒ8°ÏàËƒ2J$05406133-07d9-4958-b3b0-8c7de8e6e223
-…
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8±ÏàËƒ2J$12a07f60-293f-4b4b-8e9c-348e4213b4b4
-…
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8±ÏàËƒ2J$5be3c61f-ee46-4b05-9822-a4a4ae98b307
-…
-java:S6813!"BRemove this field injection and use constructor injection instead.(êæÄŞ8±ÏàËƒ2J$6853160a-2168-4e1e-96ed-b5dee6c29ddc
-ƒ	java:S125-"<This block of commented-out lines of code should be removed.(”³ÇÑÿÿÿÿÿ8³ÏàËƒ2J$d63f3c67-26cb-4d01-b5d1-601a3b5b6c09
-
-java:S1128
-"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8‹Œ¡Îƒ2J$31151c2c-518b-46e6-93bc-90312c3d6e4a

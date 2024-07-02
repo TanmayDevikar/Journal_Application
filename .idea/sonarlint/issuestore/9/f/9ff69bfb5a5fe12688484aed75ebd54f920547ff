@@ -1,9 +1,0 @@
-
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²öÍ"8¦®–‚2J$38229610-4be2-4d85-8f8a-c9686a05ba85
-¥
-java:S1488"]Immediately return this expression instead of assigning it to the temporary variable "users".(°¿„´ùÿÿÿÿ8§®–‚2J$1bed01d7-1029-4bfe-9843-cbca9c40792e
-…
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8§®–‚2J$a9ee927b-1b3a-4878-90db-d8cf76c9357d
-~	java:S125"<This block of commented-out lines of code should be removed.(Ëì‡ö8¨®–‚2J$9a5735c5-66ef-416c-b7db-853e1a01aec3
- 
-java:S1128"XRemove this unused import 'org.springframework.data.mongodb.repository.MongoRepository'.(ş§õæıÿÿÿÿ8ËĞ–‚2J$8e262fe3-0f6e-4da0-ac5b-c317434b8e0a
